@@ -12,5 +12,5 @@ sbt run
 ## Usage
 
 ```bash
-./demo
+./demo.sh
 ```
