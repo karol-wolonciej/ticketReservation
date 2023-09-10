@@ -1,5 +1,6 @@
 # ticketReservation
-Touk recrutation problem
+Touk recrutation problem.
+Z elementami sprawnej imperatywnej implementacji struktur i dodanym odpowiednikiem ListBuffer. Wykorzystano rozwiązanie expression problem.
 
 ## Installation and run server:
 
