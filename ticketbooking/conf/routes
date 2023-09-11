@@ -1,0 +1,10 @@
+# Routes
+# This file defines all application routes (Higher priority routes first)
+# https://www.playframework.com/documentation/latest/ScalaRouting
+# ~~~~
+
+GET    /getScreenings/:day/:movieStart/:movieEnd        controllers.TicketBookingController.getScreenings(day: Int, movieStart: Int, movieEnd: Int)
+
+GET    /chooseScreening/:userId/:roomId/:screeningID    controllers.TicketBookingController.chooseScreening(userId: Int, roomId: Int, screeningID: Int) 
+
+PUT    /makeReservation/:userId                        controllers.TicketBookingController.makeReservation(userId: Int)
